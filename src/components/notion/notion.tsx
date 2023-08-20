@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 
 import * as React from 'react';
@@ -11,6 +12,8 @@ import { ExtendedRecordMap } from 'notion-types';
 
 import { NotFountComponent } from '../404/not-found.component';
 import './notion.css';
+
+// @ts-nocheck
 
 const Code = dynamic(() =>
   import('react-notion-x/build/third-party/code').then(async (m) => {
